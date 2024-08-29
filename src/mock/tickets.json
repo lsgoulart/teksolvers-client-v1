@@ -1,0 +1,673 @@
+[
+  {
+    "numero": "TASK0948363",
+    "status": "Concluído",
+    "data_criacao": "Mon Aug 26 2024 10:45:38 GMT-0300",
+    "data_edicao": "Mon Aug 26 2024 22:14:57 GMT-0300",
+    "usuario": "joana.dep",
+    "consultor": "helio.goncalves",
+    "titulo": "Revogação de acesso",
+    "complexidade": {
+      "id": 1,
+      "label": "Nível 1"
+    },
+    "tipo": {
+      "id": "n1",
+      "label": "N1-Acessos"
+    },
+    "prioridade": "Baixa",
+    "tags": [
+      "acesso",
+      "revogacao"
+    ],
+    "arquivos": [],
+    "responsaveis": [
+      {
+        "id": 1,
+        "nome": "Analista Acesso",
+        "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Buster&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+      }
+    ],
+    "mensagens": [
+      {
+        "id": 1,
+        "usuario": {
+          "id": 1,
+          "nome": "joana.dep",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Lily",
+          "perfil": "usuário"
+        },
+        "data": "Mon Aug 26 2024 21:57:38 GMT-0300",
+        "mensagem": "Solicito a revogação de acesso do usuario jani.adm os sistema Vaxus"
+      },
+      {
+        "id": 2,
+        "usuario": {
+          "id": 2,
+          "nome": "helio.goncalves",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Buster&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN1"
+        },
+        "data": "Mon Aug 26 2024 22:00:57 GMT-0300",
+        "mensagem": "Boa tarde! Obrigado pela mensagem e já estamos executando o procedimento de revogação de acesso solicitado."
+      },
+      {
+        "id": 3,
+        "usuario": {
+          "id": 2,
+          "nome": "helio.goncalves",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Buster&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN1"
+        },
+        "data": "Mon Aug 26 2024 22:05:38 GMT-0300",
+        "mensagem": "Revogação do acesso ao sistema Vaxus efetuada com sucesso. Caso esteja de acordo encerraremos esse chamado."
+      },
+      {
+        "id": 4,
+        "usuario": {
+          "id": 1,
+          "nome": "joana.dep",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Lily",
+          "perfil": "usuário"
+        },
+        "data": "Mon Aug 26 2024 22:16:57 GMT-0300",
+        "mensagem": "De acordo. Podemos encerrar esse chamado. Tenha uma boa tarde."
+      }
+    ],
+    "assistentes": [
+      {
+        "id": 1,
+        "assistente": {
+          "id": 1,
+          "nome": "WALL-E",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jasper&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Aug 26 2024 22:12:57 GMT-0300",
+        "mensagem": "Historicamente, esse tipo de chamado é encaminhado e resolvido pelo nível N1-Acessos. Você pode aceitar esta sugestão e automaticamente será encaminhado ou analisar o chamado e encaminhar mais tarde caso seja necessário."
+      },
+      {
+        "id": 2,
+        "assistente": {
+          "id": 2,
+          "nome": "EVA",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jasper&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Aug 26 2024 22:14:57 GMT-0300",
+        "mensagem": "Para remoção de acesso ao APLICATIVO Vaxus: No SISTEMA Y (SISTEMA Y -> Configurações -> Segurança -> Usuários), selecione o usuário e retire TODOS direitos de Acesso da lista, clicando em ‘Gerenciar Funções’. Caso a remoção de acesso seja PARCIAL, ou seja, o usuário terá acesso a outros Aplicativos, deve-se adotar o procedimento descrito pelos Aplicativos mantidos para realocar à nova Unidade de Negócio. Caso a remoção de acesso seja TOTAL, deve-se: 1) Retirar o direito de acesso “Colaboração” ao usuário no Sharepoint Online para os sites: 2) Retirar ou Revisar a Licença aos Produtos no Centro de Administração do Office 365."
+      }
+    ]
+  },
+  {
+    "numero": "INC0194887",
+    "status": "Concluído",
+    "data_criacao": "Wed Aug 28 2024 14:44:43 GMT-0300",
+    "data_edicao": "Wed Aug 28 2024 18:44:43 GMT-0300",
+    "usuario": "dagalberto.souza",
+    "consultor": "vanderson.nunes",
+    "titulo": "Lentidão no Sistema",
+    "complexidade": {
+      "id": 1,
+      "label": "Nível 1"
+    },
+    "tipo": {
+      "id": "ams",
+      "label": "AMS-Não SAP"
+    },
+    "prioridade": "Baixa",
+    "tags": [
+      "sistemas",
+      "lentidão",
+      "não sap"
+    ],
+    "arquivos": [],
+    "responsaveis": [
+      {
+        "id": 1,
+        "nome": "Analista AMS",
+        "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Analyst&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+      }
+    ],
+    "mensagens": [
+      {
+        "id": 1,
+        "usuario": {
+          "id": 7,
+          "nome": "dagalberto.souza",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Dag&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "usuário"
+        },
+        "data": "Wed Aug 28 2024 14:50:00 GMT-0300",
+        "mensagem": "O sistema está muito lento em todo o departamento desde hoje cedo, já realizamos alguns procedimentos como reiniciar as máquinas e reiniciar o modem mas nada adiantou."
+      },
+      {
+        "id": 2,
+        "usuario": {
+          "id": 8,
+          "nome": "vanderson.nunes",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Vanderson&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN1"
+        },
+        "data": "Wed Aug 28 2024 15:00:00 GMT-0300",
+        "mensagem": "Bom dia! Obrigado pela mensagem e já estamos analisando. O número do seu chamado é #INC0194887."
+      },
+      {
+        "id": 3,
+        "usuario": {
+          "id": 8,
+          "nome": "vanderson.nunes",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Vanderson&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN1"
+        },
+        "data": "Wed Aug 28 2024 18:30:00 GMT-0300",
+        "mensagem": "Após análise do ocorrido, efetuamos a pronta reinicialização do serviço database, constatamos normalidade operacional. Caso esteja de acordo encerraremos esse chamado."
+      },
+      {
+        "id": 4,
+        "usuario": {
+          "id": 7,
+          "nome": "dagalberto.souza",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Dag&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "usuário"
+        },
+        "data": "Wed Aug 28 2024 18:45:00 GMT-0300",
+        "mensagem": "De acordo. Encerre o chamado. Tenha um bom dia."
+      }
+    ],
+    "assistentes": [
+      {
+        "id": 1,
+        "assistente": {
+          "id": 5,
+          "nome": "WALL-E",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jasper&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Wed Aug 28 2024 15:05:00 GMT-0300",
+        "mensagem": "Historicamente, esse tipo de chamado é encaminhado e resolvido pelo nível 3. Você pode aceitar esta sugestão e automaticamente será encaminhado ou analisar o chamado e encaminhar mais tarde caso seja necessário."
+      },
+      {
+        "id": 2,
+        "assistente": {
+          "id": 6,
+          "nome": "EVA",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eva&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Wed Aug 28 2024 15:20:00 GMT-0300",
+        "mensagem": "Para a solução da lentidão do sistema, você pode seguir o procedimento KB00845642 para reinicialização do serviço Database como uma solução temporária e investigar mais a fundo a causa da lentidão."
+      }
+    ]
+  },
+  {
+    "numero": "INC0256789",
+    "status": "Em andamento",
+    "data_criacao": "Thu Aug 29 2024 13:20:00 GMT-0300",
+    "data_edicao": "Thu Aug 29 2024 13:50:00 GMT-0300",
+    "usuario": "carla.oliveira",
+    "consultor": "marcio.santos",
+    "titulo": "Problemas com a Impressora de Rede",
+    "complexidade": {
+      "id": 1,
+      "label": "Nível 1"
+    },
+    "tipo": {
+      "id": "printer",
+      "label": "Impressora-Rede"
+    },
+    "prioridade": "Média",
+    "tags": [
+      "impressora",
+      "rede",
+      "problema"
+    ],
+    "arquivos": [],
+    "responsaveis": [
+      {
+        "id": 4,
+        "nome": "Analista de Impressoras",
+        "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Analyst&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+      }
+    ],
+    "mensagens": [
+      {
+        "id": 1,
+        "usuario": {
+          "id": 19,
+          "nome": "carla.oliveira",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Carla&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "usuário"
+        },
+        "data": "Thu Aug 29 2024 13:25:00 GMT-0300",
+        "mensagem": "A impressora de rede está apresentando erros de impressão e está offline desde o início do dia. Já tentamos reiniciar a impressora e a rede, mas o problema persiste."
+      },
+      {
+        "id": 2,
+        "usuario": {
+          "id": 20,
+          "nome": "marcio.santos",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Marcio&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN1"
+        },
+        "data": "Thu Aug 29 2024 13:40:00 GMT-0300",
+        "mensagem": "Olá Carla, estamos analisando o problema com a impressora de rede. O número do seu chamado é #INC0256789."
+      }
+    ],
+    "assistentes": [
+      {
+        "id": 1,
+        "assistente": {
+          "id": 11,
+          "nome": "Astro",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Astro&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Thu Aug 29 2024 13:30:00 GMT-0300",
+        "mensagem": "Adicione as seguintes TAGS ao chamado: impressora, rede, problema."
+      },
+      {
+        "id": 2,
+        "assistente": {
+          "id": 12,
+          "nome": "C3-PO",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=C3PO&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Thu Aug 29 2024 13:35:00 GMT-0300",
+        "mensagem": "Defini a prioridade do chamado como Média com base nas informações fornecidas."
+      },
+      {
+        "id": 3,
+        "assistente": {
+          "id": 13,
+          "nome": "R2-D2",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=R2D2&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Thu Aug 29 2024 13:45:00 GMT-0300",
+        "mensagem": "O responsável pelo chamado foi definido como Analista de Impressoras."
+      },
+      {
+        "id": 4,
+        "assistente": {
+          "id": 14,
+          "nome": "Baymax",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Baymax&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Thu Aug 29 2024 13:50:00 GMT-0300",
+        "mensagem": "O tipo do chamado foi definido como Impressora-Rede."
+      },
+      {
+        "id": 5,
+        "assistente": {
+          "id": 15,
+          "nome": "WALL-E",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jasper&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Thu Aug 29 2024 13:55:00 GMT-0300",
+        "mensagem": "A complexidade do chamado foi definida como Nível 1, considerando que é um problema de impressora de rede que pode ser resolvido com procedimentos básicos."
+      },
+      {
+        "id": 6,
+        "assistente": {
+          "id": 16,
+          "nome": "EVA",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eva&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Thu Aug 29 2024 14:00:00 GMT-0300",
+        "mensagem": "Para resolver o problema de impressão, verifique as conexões de rede da impressora e tente reiniciar o serviço de impressão. Caso o problema persista, realize uma análise mais detalhada dos logs de erro da impressora."
+      }
+    ]
+  },
+  {
+    "numero": "INC0267890",
+    "status": "Em andamento",
+    "data_criacao": "Fri Aug 30 2024 08:00:00 GMT-0300",
+    "data_edicao": "Fri Aug 30 2024 08:30:00 GMT-0300",
+    "usuario": "roberto.ferreira",
+    "consultor": "livia.morales",
+    "titulo": "Falha no Acesso ao Banco de Dados",
+    "complexidade": {
+      "id": 2,
+      "label": "Nível 2"
+    },
+    "tipo": {
+      "id": "database",
+      "label": "Banco de Dados-Acesso"
+    },
+    "prioridade": "Alta",
+    "tags": [
+      "banco de dados",
+      "acesso",
+      "falha"
+    ],
+    "arquivos": [
+      "erro_acesso.txt"
+    ],
+    "responsaveis": [
+      {
+        "id": 5,
+        "nome": "Analista de Banco de Dados",
+        "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Analyst&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+      }
+    ],
+    "mensagens": [
+      {
+        "id": 1,
+        "usuario": {
+          "id": 21,
+          "nome": "roberto.ferreira",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Roberto&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "usuário"
+        },
+        "data": "Fri Aug 30 2024 08:10:00 GMT-0300",
+        "mensagem": "Não estou conseguindo acessar o banco de dados desde o início do expediente. O erro reportado é 'Falha na conexão com o servidor'."
+      },
+      {
+        "id": 2,
+        "usuario": {
+          "id": 22,
+          "nome": "livia.morales",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Livia&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN2"
+        },
+        "data": "Fri Aug 30 2024 08:20:00 GMT-0300",
+        "mensagem": "Bom dia Roberto! Estamos analisando o problema de acesso ao banco de dados. O número do seu chamado é #INC0267890."
+      }
+    ],
+    "assistentes": [
+      {
+        "id": 1,
+        "assistente": {
+          "id": 11,
+          "nome": "Astro",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Astro&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Fri Aug 30 2024 08:15:00 GMT-0300",
+        "mensagem": "Adicione as seguintes TAGS ao chamado: banco de dados, acesso, falha."
+      },
+      {
+        "id": 2,
+        "assistente": {
+          "id": 12,
+          "nome": "C3-PO",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=C3PO&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Fri Aug 30 2024 08:25:00 GMT-0300",
+        "mensagem": "Defini a prioridade do chamado como Alta, devido ao impacto crítico na acessibilidade do banco de dados."
+      },
+      {
+        "id": 3,
+        "assistente": {
+          "id": 13,
+          "nome": "R2-D2",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=R2D2&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Fri Aug 30 2024 08:30:00 GMT-0300",
+        "mensagem": "O responsável pelo chamado foi definido como Analista de Banco de Dados."
+      },
+      {
+        "id": 4,
+        "assistente": {
+          "id": 14,
+          "nome": "Baymax",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Baymax&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Fri Aug 30 2024 08:35:00 GMT-0300",
+        "mensagem": "O tipo do chamado foi definido como Banco de Dados-Acesso."
+      },
+      {
+        "id": 5,
+        "assistente": {
+          "id": 15,
+          "nome": "WALL-E",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jasper&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Fri Aug 30 2024 08:40:00 GMT-0300",
+        "mensagem": "A complexidade do chamado foi definida como Nível 2, considerando que envolve uma análise mais detalhada do acesso ao banco de dados."
+      },
+      {
+        "id": 6,
+        "assistente": {
+          "id": 16,
+          "nome": "EVA",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eva&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Fri Aug 30 2024 08:45:00 GMT-0300",
+        "mensagem": "Para solucionar o problema de acesso ao banco de dados, verifique a conectividade com o servidor e os logs de erro para identificar a causa da falha. Pode ser necessário reiniciar o serviço de banco de dados ou ajustar configurações de rede."
+      }
+    ]
+  },
+  {
+    "numero": "INC0278910",
+    "status": "Em andamento",
+    "data_criacao": "Mon Sep 02 2024 09:15:00 GMT-0300",
+    "data_edicao": "Mon Sep 02 2024 09:45:00 GMT-0300",
+    "usuario": "luana.silva",
+    "consultor": "jorge.martins",
+    "titulo": "Erro na Atualização do Sistema de Gestão",
+    "complexidade": {
+      "id": 2,
+      "label": "Nível 2"
+    },
+    "tipo": {
+      "id": "system",
+      "label": "Sistema-Gestão"
+    },
+    "prioridade": "Alta",
+    "tags": [
+      "sistema",
+      "atualização",
+      "erro"
+    ],
+    "arquivos": [
+      "sistema_erro.log"
+    ],
+    "responsaveis": [
+      {
+        "id": 6,
+        "nome": "Analista de Sistemas",
+        "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Analyst&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+      }
+    ],
+    "mensagens": [
+      {
+        "id": 1,
+        "usuario": {
+          "id": 23,
+          "nome": "luana.silva",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Luana&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "usuário"
+        },
+        "data": "Mon Sep 02 2024 09:20:00 GMT-0300",
+        "mensagem": "Estamos enfrentando um erro na atualização do sistema de gestão. O log mostra que há uma falha de conexão com o servidor. Precisamos de uma solução urgente."
+      },
+      {
+        "id": 2,
+        "usuario": {
+          "id": 24,
+          "nome": "jorge.martins",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jorge&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN2"
+        },
+        "data": "Mon Sep 02 2024 09:35:00 GMT-0300",
+        "mensagem": "Bom dia Luana! Recebemos seu chamado e estamos verificando o problema de atualização. O número do seu chamado é #INC0278910."
+      }
+    ],
+    "assistentes": [
+      {
+        "id": 1,
+        "assistente": {
+          "id": 11,
+          "nome": "Astro",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Astro&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Sep 02 2024 09:25:00 GMT-0300",
+        "mensagem": "Adicione as seguintes TAGS ao chamado: sistema, atualização, erro."
+      },
+      {
+        "id": 2,
+        "assistente": {
+          "id": 12,
+          "nome": "C3-PO",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=C3PO&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Sep 02 2024 09:30:00 GMT-0300",
+        "mensagem": "Defini a prioridade do chamado como Alta, devido ao impacto crítico na atualização do sistema de gestão."
+      },
+      {
+        "id": 3,
+        "assistente": {
+          "id": 13,
+          "nome": "R2-D2",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=R2D2&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Sep 02 2024 09:40:00 GMT-0300",
+        "mensagem": "O responsável pelo chamado foi definido como Analista de Sistemas."
+      },
+      {
+        "id": 4,
+        "assistente": {
+          "id": 14,
+          "nome": "Baymax",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Baymax&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Sep 02 2024 09:45:00 GMT-0300",
+        "mensagem": "O tipo do chamado foi definido como Sistema-Gestão."
+      },
+      {
+        "id": 5,
+        "assistente": {
+          "id": 15,
+          "nome": "WALL-E",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jasper&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Sep 02 2024 09:50:00 GMT-0300",
+        "mensagem": "A complexidade do chamado foi definida como Nível 2, considerando que o erro de atualização pode exigir análise mais detalhada."
+      },
+      {
+        "id": 6,
+        "assistente": {
+          "id": 16,
+          "nome": "EVA",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eva&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Mon Sep 02 2024 09:55:00 GMT-0300",
+        "mensagem": "Para resolver o erro na atualização, verifique a conectividade com o servidor e os logs de atualização para identificar a causa do problema. Pode ser necessário revisar as configurações do sistema ou realizar uma nova tentativa de atualização."
+      }
+    ]
+  },
+  {
+    "numero": "INC0289012",
+    "status": "Pendente",
+    "data_criacao": "Tue Sep 03 2024 15:00:00 GMT-0300",
+    "data_edicao": "Tue Sep 03 2024 15:30:00 GMT-0300",
+    "usuario": "andre.gomes",
+    "consultor": "sandra.pereira",
+    "titulo": "Falha no Serviço de Backup",
+    "complexidade": {
+      "id": 3,
+      "label": "Nível 3"
+    },
+    "tipo": {
+      "id": "backup",
+      "label": "Serviço-Backup"
+    },
+    "prioridade": "Crítica",
+    "tags": [
+      "backup",
+      "falha",
+      "serviço"
+    ],
+    "arquivos": [
+      "backup_falha.log"
+    ],
+    "responsaveis": [
+      {
+        "id": 7,
+        "nome": "Analista de Backup",
+        "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Backup&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+      }
+    ],
+    "mensagens": [
+      {
+        "id": 1,
+        "usuario": {
+          "id": 25,
+          "nome": "andre.gomes",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Andre&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "usuário"
+        },
+        "data": "Tue Sep 03 2024 15:10:00 GMT-0300",
+        "mensagem": "O serviço de backup falhou durante a execução do último processo. O log de falha indica um erro crítico que precisa de atenção imediata."
+      },
+      {
+        "id": 2,
+        "usuario": {
+          "id": 26,
+          "nome": "sandra.pereira",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Sandra&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile",
+          "perfil": "consultorN3"
+        },
+        "data": "Tue Sep 03 2024 15:25:00 GMT-0300",
+        "mensagem": "Olá Andre! Recebemos seu chamado e estamos analisando a falha no serviço de backup. O número do seu chamado é #INC0289012."
+      }
+    ],
+    "assistentes": [
+      {
+        "id": 1,
+        "assistente": {
+          "id": 11,
+          "nome": "Astro",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Astro&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Tue Sep 03 2024 15:05:00 GMT-0300",
+        "mensagem": "Adicione as seguintes TAGS ao chamado: backup, falha, serviço."
+      },
+      {
+        "id": 2,
+        "assistente": {
+          "id": 12,
+          "nome": "C3-PO",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=C3PO&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Tue Sep 03 2024 15:15:00 GMT-0300",
+        "mensagem": "Defini a prioridade do chamado como Crítica, devido à falha crítica no serviço de backup."
+      },
+      {
+        "id": 3,
+        "assistente": {
+          "id": 13,
+          "nome": "R2-D2",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=R2D2&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Tue Sep 03 2024 15:20:00 GMT-0300",
+        "mensagem": "O responsável pelo chamado foi definido como Analista de Backup."
+      },
+      {
+        "id": 4,
+        "assistente": {
+          "id": 14,
+          "nome": "Baymax",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Baymax&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Tue Sep 03 2024 15:30:00 GMT-0300",
+        "mensagem": "O tipo do chamado foi definido como Serviço-Backup."
+      },
+      {
+        "id": 5,
+        "assistente": {
+          "id": 15,
+          "nome": "WALL-E",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jasper&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Tue Sep 03 2024 15:35:00 GMT-0300",
+        "mensagem": "A complexidade do chamado foi definida como Nível 3, considerando que a falha no serviço de backup pode exigir uma análise detalhada."
+      },
+      {
+        "id": 6,
+        "assistente": {
+          "id": 16,
+          "nome": "EVA",
+          "imagem": "https://api.dicebear.com/9.x/avataaars/svg?seed=Eva&randomizeIds=true&accessories=prescription01&clothingGraphic=bear&eyes=default&mouth=smile"
+        },
+        "data": "Tue Sep 03 2024 15:40:00 GMT-0300",
+        "mensagem": "Para solucionar a falha no serviço de backup, revise os logs de erro para identificar a causa. Pode ser necessário reiniciar o serviço ou verificar as configurações de backup para resolver o problema."
+      }
+    ]
+  }
+]
